@@ -1,0 +1,21 @@
+# Ignore sample dataset and outputs during build
+sample_dataset/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.git
+.gitignore
+README.md
+*.md
+
+# Ignore local testing files
+test_*
+local_*
+.vscode/
+.idea/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
