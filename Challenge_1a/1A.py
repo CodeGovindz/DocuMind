@@ -270,8 +270,8 @@ if __name__ == "__main__":
     output_directory = os.path.join(base_dir, "output")
     
     # Create directories if they don't exist
-    os.makedirs(input_directory, exist_ok=True)
-    os.makedirs(output_directory, exist_ok=True)
+    # os.makedirs(input_directory, exist_ok=True)
+    # os.makedirs(output_directory, exist_ok=True)
     
     print("PDF Structure Extractor")
     print("=" * 50)
