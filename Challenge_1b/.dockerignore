@@ -1,0 +1,23 @@
+# Ignore test collections and outputs during build
+Collection 1/
+Collection 2/
+Collection 3/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.git
+.gitignore
+README.md
+*.md
+
+# Ignore local testing files
+test_*
+local_test*
+.vscode/
+.idea/
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
